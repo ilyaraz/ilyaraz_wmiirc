@@ -16,11 +16,11 @@ noticetimeout=5
 noticebar=/rbar/!notice
 
 # Colors tuples: "<text> <background> <border>"
-export WMII_NORMCOLORS='#000000 #c1c48b #81654f'
-export WMII_FOCUSCOLORS='#000000 #81654f #000000'
+export WMII_FOCUSCOLORS='#ffffff #285577 #4c7899'
+export WMII_NORMCOLORS='#888888 #222222 #333333'
 
 export WMII_BACKGROUND='#333333'
-export WMII_FONT='fixed'
+export WMII_FONT='-misc-fixed-*-*-*-*-*-*-*-*-*-*-iso10646-1'
 
 set -- $(echo $WMII_NORMCOLORS $WMII_FOCUSCOLORS)
 export WMII_TERM="x-terminal-emulator"
