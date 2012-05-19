@@ -227,6 +227,10 @@ Key $MODKEY-Control-t # Toggle all other key bindings
 		wmiir xwrite /keys $MODKEY-Control-t
 		wmiir xwrite /ctl grabmod Mod3;;
 	esac
+Key $MODKEY-l
+    i3lock -i /home/ilyaraz/wallpaper.png
+Key $MODKEY-k
+    import -window root /tmp/screenshot.png
 
 KeyGroup Tag actions
 Key $MODKEY-t       # Change to another tag
